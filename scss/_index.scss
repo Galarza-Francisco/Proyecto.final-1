@@ -1,0 +1,122 @@
+@mixin titulos($fsize, $fw) {
+  font-family: "lato", arial, sans-serif;
+  font-weight: $fw;
+  font-size: $fsize;
+  color: $gris1;
+}
+// barra de navegacion
+.navbar {
+  background-color: $gris1;
+  a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: $font1;
+  }
+}
+
+// barra de navegacion end
+
+// carrousel
+
+.carousel {
+  h5 {
+    @include titulos($font2, 900);
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.2rem;
+    white-space: normal;
+    color: $naranja;
+    height: auto;
+    opacity: 1;
+    text-align: left;
+    width: 25rem;
+  }
+
+  p {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: $font3;
+    letter-spacing: 2px;
+  }
+}
+// carrpusel end
+
+// seccion reseñas
+
+.card {
+  border: none;
+  i {
+    font-weight: 600;
+    font-size: $font4;
+    color: white;
+    border-radius: 100%;
+    background-color: $naranja;
+  }
+}
+.card-body {
+  h3 {
+    @include titulos($font5, 600);
+  }
+  p {
+    font-family: "lato";
+    font-weight: 300;
+    font-size: $font6;
+    color: $gris1;
+    text-align: center;
+  }
+}
+
+//   reseñas end
+
+// seccion servicios
+
+.serv-style {
+  margin: 3%;
+  background-color: white;
+  box-shadow: 0 0 3px 3px $boxS;
+  border-radius: 00.5rem;
+  h5 {
+    color: $gris1;
+    font-size: $font4;
+  }
+}
+// servicios end
+
+// redirecc. contacto
+
+.card-redirec {
+  background-color: $naranja;
+  padding: 1.5rem;
+  div {
+    font-family: "lato" arial;
+    font-weight: 400;
+    font-size: $font7;
+    font-style: normal;
+    color: white;
+    p {
+      color: white;
+      text-align: center;
+
+      a {
+        border-color: white;
+        background-color: $naranja;
+        color: white;
+      }
+    }
+  }
+}
+
+$redes: (
+  var1: $naranja,
+);
+
+@each $red, $color in $redes {
+  .btn--var1 {
+    background-color: $color;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+}
+.btn--var1:hover {
+  color: #fff;
+  transform: scale(1.5, 1.5);
+}

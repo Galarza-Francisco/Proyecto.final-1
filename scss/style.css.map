@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
+    "sources": [
+        "style.scss",
+        "_globals.scss",
+        "_index.scss",
+        "_quienes somos.scss",
+        "_pantografo corte plasma.scss",
+        "_Estructuras metalicas.scss",
+        "_Articulos para espacios publicos.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- documento-css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Metalurgica Tenonde</title>
+   <link rel="icon" href="../imagenes/logo-tenonde-calidad.ico" />
+
+   <!-- link animaciones -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark menu shadow">
+          <a class="navbar-brand container" href="../index.html">
+              <img src="../imagenes/logo-tenonde-calidad.ico" width="50" height="50" alt="">
+            </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Servicios.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Servicios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="Pantografo corte plasma.html">Pantógrafo CNC</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="Estructuras metalicas.html">Estructuras Metálicas</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="Articulos para espacios publicos.html">Articulos Espacios Públicos</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="contacto.html">contacto</a>
+              </li>
+          </div>
+        </nav>
+        <!-- navbar end -->
+      <form class="m-3 p-3"data-aos="flip-right" >
+            <div class="form-row ">
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault01">Nombre</label>
+                <input type="text" class="form-control" id="validationDefault01" value="" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault02">Apellido</label>
+                <input type="text" class="form-control" id="validationDefault02" value="" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault03">Email</label>
+                <input type="email" class="form-control" id="validationDefault03" value=""required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault04">Provincia</label>
+                <select class="custom-select" id="validationDefault04" required>
+                  <option selected disabled value=""></option>
+                  
+                  <option value="Buenos Aires">Buenos Aires</option>
+                  <option value="Capital Federal">Capital Federal</option>
+                  <option value="Catamarca">Catamarca</option>
+                  <option value="Chaco">Chaco</option>
+                  <option value="Chubut">Chubut</option>
+                  <option value="Córdoba">Córdoba</option>
+                  <option value="Corrientes">Corrientes</option>
+                  <option value="Entre Ríos">Entre Ríos</option>
+                  <option value="Formosa">Formosa</option>
+                  <option value="Jujuy">Jujuy</option>
+                  <option value="La Pampa">La Pampa</option>
+                  <option value="La Rioja">La Rioja</option>
+                  <option value="Mendoza">Mendoza</option>
+                  <option value="Misiones">Misiones</option>
+                  <option value="Neuquén">Neuquén</option>
+                  <option value="Río Negro">Río Negro</option>
+                  <option value="Salta">Salta</option>
+                  <option value="San Juan">San Juan</option>
+                  <option value="San Luis">San Luis</option>
+                  <option value="Santa Cruz">Santa Cruz</option>
+                  <option value="Santa Fe">Santa Fe</option>
+                  <option value="Santiago del Estero">Santiago del Estero</option>
+                  <option value="Tierra del Fuego">Tierra del Fuego</option>
+                  <option value="Tucumán">Tucumán</option>
+                </select>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault03">Ciudad</label>
+                <input type="text" class="form-control" id="validationDefault03" value="" required>
+              </div>
+            </div>  
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationDefault03">Asunto</label>
+                <input type="text" class="form-control" id="validationDefault03" value=""required>
+              </div>
+            </div>
+            <div class="form-row ">
+              <div class="col-md-6 mb-3">
+                <label for="exampleFormControlTextarea1"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+              </div>
+            </div>
+            </div class="p-3 m-12">
+              <button class="btn btn-secondary p-1 m-2" type="submit">Enviar</button> 
+              <button class="btn btn-secondary p-1 m-2" type="reset">Borrar</button>
+            </div>  
+      </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.177561913796!2d-58.52272878461427!3d-32.99909388187551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b0078ff39f6e9b%3A0xa9be2332695081d1!2sBlvd.%20Montana%201100%2C%20Gualeguaych%C3%BA%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1633092084949!5m2!1ses-419!2sar" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+        <!-- footer -->
+        <footer class="color-footer text-white py-4">
+          <div class="container">
+            <nav class="row justify-content-center">
+              <a href="index.html" class="col-12 col-md-3 text-reset text-uppercase d-flex align-items-center justify-content-center mb-3 mb-md-0">
+                <img src="../imagenes/logo-tenonde-calidad.png" alt="logocoop" class="mr-2" width="100" height="100">
+                
+              </a>
+              <ul class="col-12 col-md-3 list-unstyled footer-cont">
+                <li class="font-weight-bold text-uppercase titulo-listas">Medios de Contacto</li>
+                <li><a href="" class="text-reset">
+                  <i class="fas fa-home"><span class="text-footer">lorem N°0000</span></i>
+                </a>
+                </li>
+                <li><a href="" class="text-reset"><i class="fas fa-phone-alt"><span class="text-footer">+540123456</span></i></a></li>
+                <li><a href="" class="text-reset"><i class="far fa-envelope"><span class="text-footer">lorem@ipsum.com</span></i></a></li>
+              </ul>
+              <ul class="col-12 col-md-3 list-unstyled footer-cont">
+                <li class="font-weight-bold text-uppercase titulo-listas ">Redes Sociales</li>
+                <li class="d-flex justify-content-around pt-3 ">
+                  <a href=""class="text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href=""class="text-reset">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href=""class="text-reset">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </footer>
+
+      <!-- script bootstrap -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"
+        ></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+    </script>
+  </body>
+</html>

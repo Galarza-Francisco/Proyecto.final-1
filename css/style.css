@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #4d4d4f;
+}
+.navbar a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.carousel h5 {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #4d4d4f;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.2rem;
+  white-space: normal;
+  color: #f36c21;
+  height: auto;
+  opacity: 1;
+  text-align: left;
+  width: 25rem;
+}
+.carousel p {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+.card {
+  border: none;
+}
+.card i {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+  border-radius: 100%;
+  background-color: #f36c21;
+}
+
+.card-body h3 {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #4d4d4f;
+}
+.card-body p {
+  font-family: "lato";
+  font-weight: 300;
+  font-size: 1rem;
+  color: #4d4d4f;
+  text-align: center;
+}
+
+.serv-style {
+  margin: 3%;
+  background-color: white;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+.serv-style h5 {
+  color: #4d4d4f;
+  font-size: 2rem;
+}
+
+.card-redirec {
+  background-color: #f36c21;
+  padding: 1.5rem;
+}
+.card-redirec div {
+  font-family: "lato" arial;
+  font-weight: 400;
+  font-size: 1.75rem;
+  font-style: normal;
+  color: white;
+}
+.card-redirec div p {
+  color: white;
+  text-align: center;
+}
+.card-redirec div p a {
+  border-color: white;
+  background-color: #f36c21;
+  color: white;
+}
+
+.btn--var1 {
+  background-color: #f36c21;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn--var1:hover {
+  color: #fff;
+  transform: scale(1.5, 1.5);
+}
+
+.card-body h5 {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: #4d4d4f;
+}
+
+.card-title, h4 {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #4d4d4f;
+}
+
+/* estilo footer */
+.color-footer {
+  background-color: #4d4d4f;
+  color: #292a2b;
+}
+
+.footer-cont li {
+  font-family: "lato" arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #292a2b;
+}
+.footer-cont li span {
+  font-family: "lato";
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #292a2b;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
