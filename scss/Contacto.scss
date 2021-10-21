@@ -1,0 +1,13 @@
+.cta-info {
+  h4 {
+    @include titulos($font4, 600);
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.2rem;
+    white-space: normal;
+    color: $naranja;
+    height: auto;
+    opacity: 1;
+    text-align: left;
+    width: 25rem;
+  }
+}

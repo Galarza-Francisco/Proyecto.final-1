@@ -2,15 +2,18 @@
   font-family: "lato", arial, sans-serif;
   font-weight: $fw;
   font-size: $fsize;
-  color: $gris1;
+  color: $gris2;
 }
 // barra de navegacion
+body {
+  background-color: rgb(199, 194, 194);
+}
 .navbar {
   background-color: $gris1;
   a {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: $font1;
+    font-size: $font5;
   }
 }
 
