@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 $naranja: #f36c21;
-$gris1: rgb(78, 78, 80);
+$gris1: #4e4e50;
 $gris2: #292a2b;
+$gris3: #272727;
 
 $font1: 0.8rem;
 $font2: 2.5rem;
@@ -14,5 +15,15 @@ $font4: 2rem;
 $font5: 1.1rem;
 $font6: 1rem;
 $font7: 1.75rem;
+$font8: 3.7rem;
 
 $boxS: rgba(0, 0, 0, 0.2);
+
+$grad1: linear-gradient(
+  to right top,
+  #292a2b,
+  #3c3c3d,
+  #4f5051,
+  #646465,
+  #79797a
+);

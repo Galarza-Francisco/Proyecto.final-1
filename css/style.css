@@ -4,20 +4,24 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: white;
+}
+
 .navbar {
-  background-color: #4d4d4f;
+  background-color: #4e4e50;
 }
 .navbar a {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 .carousel h5 {
   font-family: "lato", arial, sans-serif;
   font-weight: 900;
   font-size: 2.5rem;
-  color: #4d4d4f;
+  color: #292a2b;
   font-family: "Lato", sans-serif;
   letter-spacing: 0.2rem;
   white-space: normal;
@@ -49,13 +53,13 @@
   font-family: "lato", arial, sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #4d4d4f;
+  color: #292a2b;
 }
 .card-body p {
   font-family: "lato";
   font-weight: 300;
   font-size: 1rem;
-  color: #4d4d4f;
+  color: #4e4e50;
   text-align: center;
 }
 
@@ -66,8 +70,8 @@
   border-radius: 0.5rem;
 }
 .serv-style h5 {
-  color: #4d4d4f;
-  font-size: 2rem;
+  color: #4e4e50;
+  font-size: 1.1rem;
 }
 
 .card-redirec {
@@ -106,21 +110,20 @@
   font-family: "lato", arial, sans-serif;
   font-weight: 600;
   font-size: 1.75rem;
-  color: #4d4d4f;
+  color: #292a2b;
 }
 
-.card-title,
-h4 {
+.card-title, h4 {
   font-family: "lato", arial, sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
-  color: #4d4d4f;
+  color: #4e4e50;
 }
 
 /* estilo footer */
 .color-footer {
-  background-color: #4d4d4f;
-  color: #292a2b;
+  background-color: #4e4e50;
+  color: #272727;
 }
 
 .footer-cont li {
@@ -136,6 +139,53 @@ h4 {
   letter-spacing: 1px;
   color: #292a2b;
   margin: 1rem;
+}
+
+.label-color label {
+  color: #f36c21;
+  font-family: "lato" arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.secc-grad {
+  background-image: linear-gradient(to right top, #f36c21, #f67d3b, #f88e53, #f99e6a, #f9ad82);
+}
+.secc-grad .cta-info h4 {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 800;
+  font-size: 3.7rem;
+  color: #292a2b;
+  font-family: "Lato";
+  letter-spacing: 0.25rem;
+  white-space: normal;
+  color: white;
+  height: auto;
+  opacity: auto;
+  text-align: left;
+  width: 25rem;
+}
+.secc-grad .cta-info p {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #292a2b;
+  font-family: "lato" Arial, sans-serif;
+  color: white;
+  height: 1rem;
+}
+
+.btn-contac {
+  background-color: white;
+  border-radius: 110px;
+  border-color: #f36c21;
+  color: #f36c21;
+}
+
+.btn-contac:hover {
+  color: white;
+  background-color: #f36c21;
+  border-color: #f36c21;
 }
 
 /*# sourceMappingURL=style.css.map */
