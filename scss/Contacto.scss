@@ -7,35 +7,28 @@
   }
 }
 .secc-grad {
-  background-image: linear-gradient(
-    to right top,
-    #f36c21,
-    #f67d3b,
-    #f88e53,
-    #f99e6a,
-    #f9ad82
-  );
+  background-image: $grad2;
+}
 
-  .cta-info {
-    h4 {
-      @include titulos($font8, 800);
-      font-family: "Lato";
-      letter-spacing: 0.25rem;
-      white-space: normal;
-      color: white;
-      height: auto;
-      opacity: auto;
-      text-align: left;
-      width: 25rem;
-    }
-    p {
-      @include titulos($font3, 400);
-      font-family: "lato" Arial, sans-serif;
-      color: white;
-      height: 1rem;
-    }
+.cta-info {
+  h4 {
+    @include titulos($font8, 800);
+    font-family: "lato", sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    opacity: auto;
+    text-align: left;
+    width: auto;
+  }
+  p {
+    @include titulos($font3, 400);
+    font-family: "lato" Arial, sans-serif;
+    color: white;
+    height: auto;
+    width: auto;
   }
 }
+
 .btn-contac {
   background-color: white;
   border-radius: 110px;
@@ -44,6 +37,6 @@
 }
 .btn-contac:hover {
   color: white;
-  background-color: $naranja;
+  background-image: $grad2;
   border-color: $naranja;
 }

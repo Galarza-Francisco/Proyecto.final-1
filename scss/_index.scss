@@ -2,7 +2,7 @@
   font-family: "lato", arial, sans-serif;
   font-weight: $fw;
   font-size: $fsize;
-  color: $gris2;
+  color: $gris1;
 }
 // barra de navegacion
 body {
@@ -16,6 +16,9 @@ body {
     font-size: $font5;
   }
 }
+.dropdown-item:active {
+  background-image: $grad2;
+}
 
 // barra de navegacion end
 
@@ -23,7 +26,7 @@ body {
 
 .carousel {
   h5 {
-    @include titulos($font2, 900);
+    @include titulos($font8, 900);
     font-family: "Lato", sans-serif;
     letter-spacing: 0.2rem;
     white-space: normal;
@@ -31,7 +34,6 @@ body {
     height: auto;
     opacity: 1;
     text-align: left;
-    width: 25rem;
   }
 
   p {
@@ -55,6 +57,7 @@ body {
     background-color: $naranja;
   }
 }
+
 .card-body {
   h3 {
     @include titulos($font5, 600);
@@ -64,7 +67,6 @@ body {
     font-weight: 300;
     font-size: $font6;
     color: $gris1;
-    text-align: center;
   }
 }
 
@@ -77,9 +79,18 @@ body {
   background-color: white;
   box-shadow: 0 0 3px 3px $boxS;
   border-radius: 00.5rem;
-  h5 {
-    color: $gris1;
-    font-size: $font5;
+  .card-body {
+    h5 {
+      font-family: "lato", arial, sans-serif;
+      font-weight: 700;
+      color: $gris1;
+      font-size: $font2;
+    }
+    p {
+      font-family: "lato", arial, sans-serif;
+      font-weight: 300;
+      font-size: $font6;
+    }
   }
 }
 // servicios end
@@ -98,6 +109,9 @@ body {
     p {
       color: white;
       text-align: center;
+      font-weight: 500;
+      font-size: $font4;
+      letter-spacing: 0.2rem;
 
       a {
         border-color: white;
@@ -121,5 +135,5 @@ $redes: (
 }
 .btn--var1:hover {
   color: #fff;
-  transform: scale(1.5, 1.5);
+  transform: scale(1.2, 1.2);
 }

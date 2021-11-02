@@ -12,8 +12,8 @@ $font1: 0.8rem;
 $font2: 2.5rem;
 $font3: 1.3rem;
 $font4: 2rem;
-$font5: 1.1rem;
-$font6: 1rem;
+$font5: 1.2rem;
+$font6: 1.1rem;
 $font7: 1.75rem;
 $font8: 3.7rem;
 
@@ -26,4 +26,12 @@ $grad1: linear-gradient(
   #4f5051,
   #646465,
   #79797a
+);
+$grad2: linear-gradient(
+  to right top,
+  #f36c21,
+  #f67d3b,
+  #f88e53,
+  #f99e6a,
+  #f9ad82
 );

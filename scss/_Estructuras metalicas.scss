@@ -1,3 +1,9 @@
-h4 {
-  @extend .card-title;
+h4 p {
+  @extend .card-body-serv;
+}
+p {
+  @extend .contenido-servicio;
+}
+.fondo-card1 {
+  background-image: url(../imagenes/triangulosverdes.png);
 }

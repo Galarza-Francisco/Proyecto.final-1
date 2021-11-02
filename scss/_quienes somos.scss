@@ -1,5 +1,18 @@
-.card-body {
+.card-body-nosotros {
   h5 {
-    @include titulos($font7, 600);
+    @include titulos($font2, 600);
+    color: $naranja;
   }
+  p {
+    font-family: "lato";
+    font-weight: 300;
+    font-size: $font6;
+    color: $gris2;
+  }
+}
+.fondo-img {
+  box-shadow: $boxS;
+}
+.fondo-nosotros {
+  background-color: rgba(238, 238, 238, 0.479);
 }

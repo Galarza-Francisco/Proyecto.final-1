@@ -9,14 +9,18 @@
     font-weight: 400;
     font-size: $font6;
     color: $gris2;
-
     span {
       font-family: "lato";
-      font-weight: 500;
-      font-size: $font6;
+      font-weight: 400;
+      font-size: $font5;
       letter-spacing: 1px;
       color: $gris2;
       margin: 1rem;
     }
+  }
+}
+.footer-cont--uno {
+  i {
+    font-size: 2.2rem;
   }
 }

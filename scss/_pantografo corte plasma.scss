@@ -1,6 +1,25 @@
-.card-title {
-  font-family: "lato", arial, sans-serif;
-  font-weight: 600;
-  font-size: $font2;
-  color: $gris1;
+.card-body-serv {
+  .card-title {
+    font-family: "lato", arial;
+    font-weight: 700;
+    font-size: $font2;
+    color: $gris1;
+  }
+  p {
+    font-weight: 600;
+    font-size: $font5;
+    font-family: "lato", arial, sans-serif;
+    color: $gris1;
+  }
+}
+.fondo-card {
+  background-image: url(../imagenes/trianguloamarillo.png);
+}
+.contenido-servicio {
+  p {
+    color: $gris1;
+    font-weight: 300;
+    font-family: "lato", arial, sans-serif;
+    font-size: $font3;
+  }
 }

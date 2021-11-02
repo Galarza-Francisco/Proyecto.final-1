@@ -14,14 +14,18 @@ body {
 .navbar a {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.dropdown-item:active {
+  background-image: linear-gradient(to right top, #f36c21, #f67d3b, #f88e53, #f99e6a, #f9ad82);
 }
 
 .carousel h5 {
   font-family: "lato", arial, sans-serif;
   font-weight: 900;
-  font-size: 2.5rem;
-  color: #292a2b;
+  font-size: 3.7rem;
+  color: #4e4e50;
   font-family: "Lato", sans-serif;
   letter-spacing: 0.2rem;
   white-space: normal;
@@ -29,7 +33,6 @@ body {
   height: auto;
   opacity: 1;
   text-align: left;
-  width: 25rem;
 }
 .carousel p {
   font-family: "lato", sans-serif;
@@ -52,15 +55,14 @@ body {
 .card-body h3 {
   font-family: "lato", arial, sans-serif;
   font-weight: 600;
-  font-size: 1.1rem;
-  color: #292a2b;
+  font-size: 1.2rem;
+  color: #4e4e50;
 }
 .card-body p {
   font-family: "lato";
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #4e4e50;
-  text-align: center;
 }
 
 .serv-style {
@@ -69,8 +71,15 @@ body {
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
 }
-.serv-style h5 {
+.serv-style .card-body h5 {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 700;
   color: #4e4e50;
+  font-size: 2.5rem;
+}
+.serv-style .card-body p {
+  font-family: "lato", arial, sans-serif;
+  font-weight: 300;
   font-size: 1.1rem;
 }
 
@@ -88,6 +97,9 @@ body {
 .card-redirec div p {
   color: white;
   text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
 }
 .card-redirec div p a {
   border-color: white;
@@ -103,21 +115,61 @@ body {
 
 .btn--var1:hover {
   color: #fff;
-  transform: scale(1.5, 1.5);
+  transform: scale(1.2, 1.2);
 }
 
-.card-body h5 {
-  font-family: "lato", arial, sans-serif;
-  font-weight: 600;
-  font-size: 1.75rem;
-  color: #292a2b;
-}
-
-.card-title, h4 {
+.card-body-nosotros h5 {
   font-family: "lato", arial, sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
   color: #4e4e50;
+  color: #f36c21;
+}
+.card-body-nosotros p {
+  font-family: "lato";
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #292a2b;
+}
+
+.fondo-img {
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.fondo-nosotros {
+  background-color: rgba(238, 238, 238, 0.479);
+}
+
+.card-body-serv .card-title, h4 p .card-title {
+  font-family: "lato", arial;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #4e4e50;
+}
+.card-body-serv p, h4 p p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "lato", arial, sans-serif;
+  color: #4e4e50;
+}
+
+.fondo-card {
+  background-image: url(../imagenes/trianguloamarillo.png);
+}
+
+.contenido-servicio p, p p {
+  color: #4e4e50;
+  font-weight: 300;
+  font-family: "lato", arial, sans-serif;
+  font-size: 1.3rem;
+}
+
+.fondo-card1 {
+  background-image: url(../imagenes/triangulosverdes.png);
+}
+
+.fondo-card2 {
+  background-image: url(../imagenes/triangulosazules.png);
 }
 
 /* estilo footer */
@@ -129,16 +181,20 @@ body {
 .footer-cont li {
   font-family: "lato" arial, sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #292a2b;
 }
 .footer-cont li span {
   font-family: "lato";
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
   letter-spacing: 1px;
   color: #292a2b;
   margin: 1rem;
+}
+
+.footer-cont--uno i {
+  font-size: 2.2rem;
 }
 
 .label-color label {
@@ -151,28 +207,28 @@ body {
 .secc-grad {
   background-image: linear-gradient(to right top, #f36c21, #f67d3b, #f88e53, #f99e6a, #f9ad82);
 }
-.secc-grad .cta-info h4 {
+
+.cta-info h4 {
   font-family: "lato", arial, sans-serif;
   font-weight: 800;
   font-size: 3.7rem;
-  color: #292a2b;
-  font-family: "Lato";
-  letter-spacing: 0.25rem;
-  white-space: normal;
+  color: #4e4e50;
+  font-family: "lato", sans-serif;
+  letter-spacing: 3px;
   color: white;
-  height: auto;
   opacity: auto;
   text-align: left;
-  width: 25rem;
+  width: auto;
 }
-.secc-grad .cta-info p {
+.cta-info p {
   font-family: "lato", arial, sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
-  color: #292a2b;
+  color: #4e4e50;
   font-family: "lato" Arial, sans-serif;
   color: white;
-  height: 1rem;
+  height: auto;
+  width: auto;
 }
 
 .btn-contac {
@@ -184,7 +240,7 @@ body {
 
 .btn-contac:hover {
   color: white;
-  background-color: #f36c21;
+  background-image: linear-gradient(to right top, #f36c21, #f67d3b, #f88e53, #f99e6a, #f9ad82);
   border-color: #f36c21;
 }
 

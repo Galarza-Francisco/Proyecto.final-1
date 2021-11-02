@@ -1,3 +1,6 @@
-h4 {
-  @extend .card-title;
+h4 p {
+  @extend .card-body-serv;
+}
+.fondo-card2 {
+  background-image: url(../imagenes/triangulosazules.png);
 }
