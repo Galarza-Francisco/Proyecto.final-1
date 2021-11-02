@@ -244,4 +244,24 @@ body {
   border-color: #f36c21;
 }
 
+.section-404 h1 {
+  font-family: "lato";
+  font-weight: 300;
+  font-size: 6.5rem;
+}
+.section-404 i {
+  font-size: 6.5rem;
+}
+.section-404 p {
+  font-family: "lato" arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.75rem;
+}
+.section-404 a {
+  font-family: "lato";
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #f36c21;
+}
+
 /*# sourceMappingURL=style.css.map */
