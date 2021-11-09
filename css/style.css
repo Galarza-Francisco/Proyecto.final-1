@@ -21,6 +21,10 @@ body {
   background-image: linear-gradient(to right top, #f36c21, #f67d3b, #f88e53, #f99e6a, #f9ad82);
 }
 
+.dropdown-menu {
+  background-color: #4e4e50;
+}
+
 .carousel h5 {
   font-family: "lato", arial, sans-serif;
   font-weight: 900;
@@ -99,7 +103,7 @@ body {
   text-align: center;
   font-weight: 500;
   font-size: 2rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 .card-redirec div p a {
   border-color: white;
